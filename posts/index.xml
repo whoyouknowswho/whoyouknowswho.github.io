@@ -1,15 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My New Hugo Site</title>
-        <link>http://example.org/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 27 Dec 2022 11:30:39 &#43;0700</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>First_post</title>
-    <link>http://example.org/posts/first_post/</link>
+        <title>All Posts - Whoyouknowswho - My blog</title>
+        <link>https://whoyouknowswho.github.io/posts/</link>
+        <description>All Posts | Whoyouknowswho - My blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 27 Dec 2022 11:30:39 &#43;0700</lastBuildDate><atom:link href="https://whoyouknowswho.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Test</title>
+    <link>https://whoyouknowswho.github.io/first_post/</link>
     <pubDate>Tue, 27 Dec 2022 11:30:39 &#43;0700</pubDate>
-    <author>xxxx</author>
-    <guid>http://example.org/posts/first_post/</guid>
-    <description><![CDATA[ahehe]]></description>
+    <author>Who you knows Who</author>
+    <guid>https://whoyouknowswho.github.io/first_post/</guid>
+    <description><![CDATA[h2 fdhfgf dhfgdgfd dhdfgdf dfhdgf
+h3 dhfgdgf dgfgdgf hdfggf hdf
+h4 fhdgfdgfhdh hfdiff bgdufgdu fdugfu hdf
+h5 dnfhdfd dfugfd dfugdu]]]></description>
 </item>
 </channel>
 </rss>
