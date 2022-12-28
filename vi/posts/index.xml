@@ -1,18 +1,28 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tất cả Bài viết - Whoyouknowswho - My blog</title>
+        <title>Tất cả Bài viết - Who you knows Who - My blog</title>
         <link>https://whoyouknowswho.github.io/vi/posts/</link>
-        <description>Tất cả Bài viết | Whoyouknowswho - My blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 27 Dec 2022 17:41:30 &#43;0700</lastBuildDate><atom:link href="https://whoyouknowswho.github.io/vi/posts/" rel="self" type="application/rss+xml" /><item>
+        <description>Tất cả Bài viết | Who you knows Who - My blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 27 Dec 2022 20:00:08 &#43;0700</lastBuildDate><atom:link href="https://whoyouknowswho.github.io/vi/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Test</title>
-    <link>https://whoyouknowswho.github.io/vi/first_post/</link>
-    <pubDate>Tue, 27 Dec 2022 17:41:30 &#43;0700</pubDate>
+    <link>https://whoyouknowswho.github.io/vi/posts/fb/</link>
+    <pubDate>Tue, 27 Dec 2022 20:00:08 &#43;0700</pubDate>
     <author>Who you knows Who</author>
-    <guid>https://whoyouknowswho.github.io/vi/first_post/</guid>
-    <description><![CDATA[h2 fdhfgf dhfgdgfd dhdfgdf dfhdgf
-h3 dhfgdgf dgfgdgf hdfggf hdf
-h4 fhdgfdgfhdh hfdiff bgdufgdu fdugfu hdf
-h5 dnfhdfd dfugfd dfugdu]]></description>
+    <guid>https://whoyouknowswho.github.io/vi/posts/fb/</guid>
+    <description><![CDATA[h2 Levantai
+Levantai
+Levantai
+Levantai
+Levantai
+Levantai
+Levantai
+h3 Levantai
+Levantai
+Levantai
+Levantai
+Levantai
+Levantai
+Levantai]]></description>
 </item>
 </channel>
 </rss>

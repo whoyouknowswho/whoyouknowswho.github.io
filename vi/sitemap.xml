@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://whoyouknowswho.github.io/vi/posts/</loc><lastmod>2022-12-27T17:41:30&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://whoyouknowswho.github.io/vi/posts/</loc><lastmod>2022-12-27T20:00:08&#43;07:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://whoyouknowswho.github.io/posts/"
@@ -11,16 +11,16 @@
                     hreflang="vi"
                     href="https://whoyouknowswho.github.io/vi/posts/"
                     /></url><url>
-            <loc>https://whoyouknowswho.github.io/vi/first_post/</loc><lastmod>2022-12-27T17:41:30&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://whoyouknowswho.github.io/vi/posts/fb/</loc><lastmod>2022-12-27T20:00:08&#43;07:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://whoyouknowswho.github.io/first_post/"
+                        href="https://whoyouknowswho.github.io/posts/fb/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="vi"
-                    href="https://whoyouknowswho.github.io/vi/first_post/"
+                    href="https://whoyouknowswho.github.io/vi/posts/fb/"
                     /></url><url>
-            <loc>https://whoyouknowswho.github.io/vi/</loc><lastmod>2022-12-27T17:41:30&#43;07:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://whoyouknowswho.github.io/vi/</loc><lastmod>2022-12-27T20:00:08&#43;07:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://whoyouknowswho.github.io/"
@@ -29,7 +29,7 @@
                     hreflang="vi"
                     href="https://whoyouknowswho.github.io/vi/"
                     /></url><url>
-            <loc>https://whoyouknowswho.github.io/vi/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://whoyouknowswho.github.io/vi/categories/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://whoyouknowswho.github.io/categories/"
@@ -38,7 +38,7 @@
                     hreflang="vi"
                     href="https://whoyouknowswho.github.io/vi/categories/"
                     /></url><url>
-            <loc>https://whoyouknowswho.github.io/vi/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://whoyouknowswho.github.io/vi/tags/</loc><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://whoyouknowswho.github.io/tags/"
