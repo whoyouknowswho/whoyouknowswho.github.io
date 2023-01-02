@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Who you knows Who - My blog</title>
+    <link>https://whoyouknowswho.github.io/about/</link>
+    <description>Recent content in Abouts on Who you knows Who - My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 02 Jan 2023 12:08:37 +0700</lastBuildDate><atom:link href="https://whoyouknowswho.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://whoyouknowswho.github.io/about/ahehe/</link>
+      <pubDate>Mon, 02 Jan 2023 12:08:37 +0700</pubDate>
+      
+      <guid>https://whoyouknowswho.github.io/about/ahehe/</guid>
+      <description>Welcome to my blog! Somethings to know about me My name is Le Van Tai, I&amp;rsquo;m 15 years old now I&amp;rsquo;m studying at Ngu Hanh Son High School, Da Nang. My hobbies are competitive programming and doing nonsense some things related to IT. Who you know Who is my nickname on various websites, especially some competing programming sites like LQDOJ, VNOJ and Codeforces. What is this blog created for? Write some solutions to small and large competitions or computer programming exercises.</description>
+    </item>
+    
+  </channel>
+</rss>
