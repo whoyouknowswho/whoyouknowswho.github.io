@@ -3,15 +3,7 @@
         <title>Who you knows Who - My blog</title>
         <link>https://whoyouknowswho.github.io/</link>
         <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 02 Jan 2023 12:08:37 &#43;0700</lastBuildDate>
             <atom:link href="https://whoyouknowswho.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Test</title>
-    <link>https://whoyouknowswho.github.io/posts/test/</link>
-    <pubDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</pubDate>
-    <author>Who you knows Who</author>
-    <guid>https://whoyouknowswho.github.io/posts/test/</guid>
-    <description><![CDATA[<p>ahehe</p>]]></description>
-</item>
-</channel>
+        </channel>
 </rss>
