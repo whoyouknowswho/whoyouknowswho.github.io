@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Who you knows Who - My blog</title>
+        <link>https://whoyouknowswho.github.io/posts/</link>
+        <description>All Posts | Who you knows Who - My blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://whoyouknowswho.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Test</title>
+    <link>https://whoyouknowswho.github.io/posts/test/</link>
+    <pubDate>Fri, 27 Jan 2023 00:00:00 &#43;0000</pubDate>
+    <author>Who you knows Who</author>
+    <guid>https://whoyouknowswho.github.io/posts/test/</guid>
+    <description><![CDATA[<p>ahehe</p>]]></description>
+</item>
+</channel>
+</rss>

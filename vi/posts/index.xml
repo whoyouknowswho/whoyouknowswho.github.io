@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Who you knows Who - My blog</title>
-        <link>https://whoyouknowswho.github.io/vi/</link>
-        <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 18 Feb 2023 14:18:28 &#43;0700</lastBuildDate>
-            <atom:link href="https://whoyouknowswho.github.io/vi/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>Tất cả Bài viết - Who you knows Who - My blog</title>
+        <link>https://whoyouknowswho.github.io/vi/posts/</link>
+        <description>Tất cả Bài viết | Who you knows Who - My blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>vi</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 18 Feb 2023 14:18:28 &#43;0700</lastBuildDate><atom:link href="https://whoyouknowswho.github.io/vi/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023</title>
     <link>https://whoyouknowswho.github.io/vi/posts/solhsg23/</link>
     <pubDate>Sat, 18 Feb 2023 14:18:28 &#43;0700</pubDate>

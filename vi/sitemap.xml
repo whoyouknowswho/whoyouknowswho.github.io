@@ -2,6 +2,34 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://whoyouknowswho.github.io/vi/posts/solhsg23/</loc><lastmod>2023-02-19T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://whoyouknowswho.github.io/vi/posts/</loc><lastmod>2023-02-19T00:00:00&#43;00:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://whoyouknowswho.github.io/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="vi"
+                    href="https://whoyouknowswho.github.io/vi/posts/"
+                    /></url><url>
+            <loc>https://whoyouknowswho.github.io/vi/</loc><lastmod>2023-02-19T00:00:00&#43;00:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://whoyouknowswho.github.io/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="vi"
+                    href="https://whoyouknowswho.github.io/vi/"
+                    /></url><url>
+            <loc>https://whoyouknowswho.github.io/vi/posts/test/</loc><lastmod>2023-01-27T09:25:21&#43;07:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://whoyouknowswho.github.io/posts/test/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="vi"
+                    href="https://whoyouknowswho.github.io/vi/posts/test/"
+                    /></url><url>
             <loc>https://whoyouknowswho.github.io/vi/about/ahehe/</loc><lastmod>2023-01-02T12:08:26&#43;07:00</lastmod><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -19,15 +47,6 @@
                     rel="alternate"
                     hreflang="vi"
                     href="https://whoyouknowswho.github.io/vi/about/"
-                    /></url><url>
-            <loc>https://whoyouknowswho.github.io/vi/</loc><lastmod>2023-01-02T12:08:26&#43;07:00</lastmod><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://whoyouknowswho.github.io/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="vi"
-                    href="https://whoyouknowswho.github.io/vi/"
                     /></url><url>
             <loc>https://whoyouknowswho.github.io/vi/categories/</loc><xhtml:link
                         rel="alternate"
