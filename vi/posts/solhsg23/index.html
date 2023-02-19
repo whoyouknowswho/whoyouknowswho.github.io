@@ -31,7 +31,7 @@ Link nộp bài: LQDOJ"/>
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/whoyouknowswho.github.io\/vi\/posts\/solhsg23\/"
-        },"genre": "posts","keywords": "CP, HSG9ĐN","wordcount":  1416 ,
+        },"genre": "posts","keywords": "CP, HSG9ĐNA","wordcount":  1423 ,
         "url": "https:\/\/whoyouknowswho.github.io\/vi\/posts\/solhsg23\/","datePublished": "2023-02-18T14:18:28+07:00","dateModified": "2023-02-19T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -79,7 +79,7 @@ Link nộp bài: LQDOJ"/>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/whoyouknowswho" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Who you knows Who</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-18">2023-02-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1416 từ&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-02-18">2023-02-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1423 từ&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 phút&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -205,7 +205,7 @@ $\overline{\rm sz}$ (với $z$ là đảo ngược của $s$)</li>
 </ul>
 <h3 id="code-2">Code</h3>
 <blockquote>
-<p><strong>Time</strong>: $O(9^{|x| / 2}.\frac{sqrt(x)}{6})$.</p>
+<p><strong>Time</strong>: $O(9^{|x - 1| / 2}.\frac{sqrt(x)}{6})$.</p>
 <p><strong>Algo</strong>: Backtracking, Prime</p>
 </blockquote>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
@@ -258,8 +258,10 @@ $\overline{\rm sz}$ (với $z$ là đảo ngược của $s$)</li>
 </span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span> <span class="p">()</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">	<span class="n">freopen</span><span class="p">(</span><span class="s">&#34;NTDX.INP&#34;</span><span class="p">,</span> <span class="s">&#34;r&#34;</span><span class="p">,</span> <span class="n">stdin</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">	<span class="n">freopen</span><span class="p">(</span><span class="s">&#34;NTDX.OUT&#34;</span><span class="p">,</span> <span class="s">&#34;w&#34;</span><span class="p">,</span> <span class="n">stdout</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ios_base</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">	<span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span> <span class="n">cout</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="nb">NULL</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">	<span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">x</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">	<span class="kt">long</span> <span class="kt">long</span> <span class="n">n</span> <span class="o">=</span> <span class="n">to_string</span><span class="p">(</span><span class="n">x</span><span class="p">).</span><span class="n">size</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">	<span class="kt">long</span> <span class="kt">long</span> <span class="n">n</span> <span class="o">=</span> <span class="n">to_string</span><span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="mi">1</span><span class="p">).</span><span class="n">size</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span> <span class="o">++</span><span class="p">)</span> <span class="n">calc</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span> <span class="c1">// Tạo số với chiều dài i
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ans</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
@@ -374,13 +376,13 @@ $a_2, a_3, &hellip;, a_n \ne 0$.</div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Chia sẻ trên Twitter" data-sharer="twitter" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023" data-hashtags="CP,HSG9ĐN"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên Facebook" data-sharer="facebook" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-hashtag="CP"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên Hacker News" data-sharer="hackernews" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên Line" data-sharer="line" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên 微博" data-sharer="weibo" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Chia sẻ trên Twitter" data-sharer="twitter" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023" data-hashtags="CP,HSG9ĐNA"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên Facebook" data-sharer="facebook" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-hashtag="CP"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên Hacker News" data-sharer="hackernews" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên Line" data-sharer="line" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Chia sẻ trên 微博" data-sharer="weibo" data-url="https://whoyouknowswho.github.io/vi/posts/solhsg23/" data-title="Lời giải kì thi HSG9 môn tin học thành phố Đà Nẵng năm 2023"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/vi/tags/cp/">CP</a>,&nbsp;<a href="/vi/tags/hsg9%C4%91n/">HSG9ĐN</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/vi/tags/cp/">CP</a>,&nbsp;<a href="/vi/tags/hsg9%C4%91na/">HSG9ĐNA</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Quay lại</a></span>&nbsp;|&nbsp;<span><a href="/vi/">Trang chủ</a></span>
         </section>
